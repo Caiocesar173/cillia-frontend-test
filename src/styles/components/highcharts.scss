@@ -1,0 +1,22 @@
+.chart {
+    .highcharts-background {
+        fill: var(--card-background);
+    }
+
+    .highcharts-axis-labels {
+        text {
+            color: var(--text-color) !important;
+            fill: var(--text-color) !important;
+        }
+    }
+
+    .highcharts-container {
+        @media (max-width: 780px) {
+            .highcharts-axis-labels {
+                text {
+                    font-size: 11px !important;
+                }
+            }
+        }
+    }
+}

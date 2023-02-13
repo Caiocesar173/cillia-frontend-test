@@ -1,0 +1,47 @@
+.car-card {
+    cursor: pointer;
+    margin-bottom: 1rem;
+    .car-logo {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 0.9rem;
+        background-color: #ecf7fb;
+        border-radius: var(--border-radius);
+        max-height: 76px;
+
+        .vehicle-logo {
+            width: 46px;
+        }
+    }
+    text-transform: lowercase;
+
+    .car-info {
+        justify-content: center;
+        margin-left: 1rem;
+
+        .title {
+            font-size: large;
+            text-transform: capitalize !important;
+            margin-bottom: 0.3rem;
+            color: var(--text-color);
+        }
+        .model {
+            color: var(--grey);
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .title {
+            font-size: 1.1rem;
+        }
+
+        .model {
+            font-size: 0.8rem;
+        }
+
+        .created {
+            font-size: 0.7rem;
+        }
+    }
+}

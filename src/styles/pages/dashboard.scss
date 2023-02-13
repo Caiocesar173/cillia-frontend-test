@@ -1,0 +1,42 @@
+.dashboard {
+    min-height: 100%;
+    background-color: var(--background);
+
+    .vehicles-list {
+        .vehicles {
+            height: 19rem !important;
+            overflow-y: scroll;
+            padding-left: 1rem;
+        }
+    }
+
+    .vehicles-list,
+    .map-view {
+        width: 50%;
+        height: 100%;
+    }
+
+    .flex-containter {
+        margin-top: 1.3rem;
+        gap: 1.3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    @media (max-width: 1024px) {
+        .flex-containter {
+            margin-top: 0.8rem;
+            gap: 0.8rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .vehicles-list,
+        .map-view {
+            width: 100%;
+            height: 50%;
+        }
+    }
+}

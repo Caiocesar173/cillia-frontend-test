@@ -1,0 +1,28 @@
+:root {
+//    --dark-alt: #334155;
+
+    /* total width */
+    ::-webkit-scrollbar {
+        background-color: var(--scroll-track);
+        width: 13px;
+        border-radius: var(--border-radius);
+    }
+
+    /* background of the scrollbar except button or resizer */
+    ::-webkit-scrollbar-track {
+        background-color: var(--scroll-track);
+        border-radius: var(--border-radius);
+    }
+
+    /* scrollbar itself */
+    ::-webkit-scrollbar-thumb {
+        background-color: #babac0;
+        border-radius: var(--border-radius);
+        width: 10px;
+    }
+
+    /* set button(top and bottom of the scrollbar) */
+    ::-webkit-scrollbar-button {
+        display: none;
+    }
+}

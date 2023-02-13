@@ -1,0 +1,131 @@
+.navbar {
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x) !important;
+
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+
+    background-color: var(--background-header);
+
+    .menu-toggle-wrap {
+        cursor: pointer;
+
+        span {
+            font-size: 24px;
+        }
+    }
+
+    a {
+        font-weight: bold;
+        color: #2c3e50;
+    }
+
+    a.router-link-exact-active {
+        color: #42b983;
+    }
+
+    .container-fluid {
+        justify-content: flex-start !important;
+    }
+
+    .navbar-brand {
+        margin-left: 1rem;
+    }
+
+    .user-dropdown {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 1rem;
+
+        .nav-help,
+        .nav-support,
+        .nav-user {
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            font-weight: 600;
+            font-size: 0.8rem;
+
+            .title {
+                color: var(--light);
+            }
+        }
+
+        .nav-help,
+        .nav-support {
+            border-right: 0.1rem solid var(--header-icons);
+            padding-right: 1.3rem;
+
+            .material-icons {
+                color: var(--header-icons) !important;
+                padding-right: 0.6rem;
+            }
+        }
+
+        .nav-support {
+            .material-icons {
+                margin-bottom: -0.2rem;
+            }
+        }
+
+        .nav-user {
+            .icons {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                .material-icons {
+                    color: var(--primary);
+                    display: inline-block;
+                    border-radius: 15rem;
+
+                    padding: 0.3rem;
+                    font-size: 1.6rem;
+                    background-color: var(--light);
+                }
+
+                .user-icon {
+                    z-index: 2;
+                    border-style: solid;
+                    margin-left: 0.4rem;
+                }
+
+                .home-icon {
+                    position: relative;
+                    left: -0.6rem;
+                }
+            }
+
+            .role {
+                font-weight: 300;
+                text-align: end;
+                color: var(--light);
+            }
+        }
+    }
+
+    .sub-menu {
+        right: 0;
+    }
+
+    @media (max-width: 1024px) {
+        .content-right {
+            display: none;
+        }
+
+        .container-fluid {
+            flex-direction: row-reverse;
+            justify-content: space-between !important;
+        }
+    }
+}

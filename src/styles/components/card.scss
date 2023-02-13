@@ -1,0 +1,45 @@
+.card {
+    border-radius: var(--border-radius) !important;
+    background-color: var(--card-background) !important;
+
+    hr.separator {
+        position: relative;
+        padding: 0;
+        border: 0;
+        height: 3px;
+        background-color: var(--primary);
+        width: 111px;
+        margin-left: 0px;
+        top: -0.8rem;
+        right: 0;
+        opacity: 0.7 !important;
+        left: 1.3rem;
+    }
+
+    .title-container {
+        padding: 0.9rem;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: -1.2rem;
+
+        .title {
+            color: var(--text-color);
+            display: flex;
+            flex-direction: row;
+            gap: 0.3rem;
+            justify-content: center;
+            align-items: center;
+            font-weight: 900;
+        }
+
+        h5 {
+            font-size: 1.4rem;
+        }
+    }
+
+    .material-icons {
+        position: relative;
+        top: -0.3rem;
+        font-size: 29px;
+    }
+}
