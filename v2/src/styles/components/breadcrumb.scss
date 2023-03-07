@@ -1,0 +1,32 @@
+.bread-crumb {
+    width: 100%;
+    padding: 0.8rem;
+    text-transform: uppercase;
+    background-color: var(--card-background);
+    box-shadow: inset 0 -1px 0 0 rgb(117 126 143 / 25%);
+
+    .crumbs {
+        .material-icons {
+            color: var(--inactive);
+        }
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        a {
+            text-decoration: none;
+        }
+
+        .crumb {
+            display: flex;
+            align-items: center;
+
+            .title {
+                color: var(--title-color);
+                font-weight: bold;
+                font-size: 14px;
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.vechicle-item {
+    cursor: pointer;
+    margin-bottom: 1rem;
+
+    .car-logo {
+        .vehicle-logo {
+            width: 40px;
+        }
+    }
+    
+    text-transform: lowercase;
+
+    .car-info {
+        justify-content: center;
+        margin-left: 1rem;
+
+        .title {
+            font-size: 0.875rem;
+            text-transform: capitalize !important;
+            margin-bottom: 0.3rem;
+            color: var(--text-color);
+        }
+        .model {
+            color: var(--grey);
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .title {
+            font-size: 1.1rem;
+        }
+
+        .model {
+            font-size: 0.8rem;
+        }
+
+        .created {
+            font-size: 0.7rem;
+        }
+    }
+}

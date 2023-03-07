@@ -1,0 +1,12 @@
+.backdrop-blur {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: calc(100% * 2.5);
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    color: var(--background);
+    transition: 0.4s ease-in-out;
+    z-index: 10;
+}

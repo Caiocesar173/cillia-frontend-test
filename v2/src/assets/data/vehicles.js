@@ -1,0 +1,58 @@
+export default [
+  {
+    id: 1,
+    type: "volkswagen",
+    car: "VOLKSWAGEN POLO",
+    model: "COMFORTLINE 200 TSI 1.0 TSI 2018",
+    created_at: "01.05.2020 - 18:25",
+  },
+  {
+    id: 2,
+    type: "volkswagen",
+    car: "VOLKSWAGEN POLO",
+    model: "COMFORTLINE 200 TSI 1.0 TSI 2018",
+    created_at: "01.05.2020 - 18:25",
+  },
+  {
+    id: 3,
+    type: "volkswagen",
+    car: "VOLKSWAGEN POLO",
+    model: "COMFORTLINE 200 TSI 1.0 TSI 2018",
+    created_at: "01.05.2020 - 18:25",
+  },
+  {
+    id: 4,
+    type: "volkswagen",
+    car: "VOLKSWAGEN POLO",
+    model: "COMFORTLINE 200 TSI 1.0 TSI 2018",
+    created_at: "01.05.2020 - 18:25",
+  },
+  {
+    id: 5,
+    type: "volkswagen",
+    car: "VOLKSWAGEN POLO",
+    model: "COMFORTLINE 200 TSI 1.0 TSI 2018",
+    created_at: "01.05.2020 - 18:25",
+  },
+  {
+    id: 6,
+    type: "volkswagen",
+    car: "VOLKSWAGEN POLO",
+    model: "COMFORTLINE 200 TSI 1.0 TSI 2018",
+    created_at: "01.05.2020 - 18:25",
+  },
+  {
+    id: 7,
+    type: "volkswagen",
+    car: "VOLKSWAGEN POLO",
+    model: "COMFORTLINE 200 TSI 1.0 TSI 2018",
+    created_at: "01.05.2020 - 18:25",
+  },
+  {
+    id: 8,
+    type: "volkswagen",
+    car: "VOLKSWAGEN POLO",
+    model: "COMFORTLINE 200 TSI 1.0 TSI 2018",
+    created_at: "01.05.2020 - 18:25",
+  },
+];

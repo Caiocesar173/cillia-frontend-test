@@ -1,0 +1,12 @@
+#app {
+    display: flex;
+    font-family: var(--font);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    main {
+        background-color: var(--background);
+        flex: 1 1 0;
+        padding: var(--bs-navbar-padding-x) var(--bs-navbar-padding-x) var(--bs-navbar-padding-x) var(--bs-navbar-padding-x);
+    }
+}

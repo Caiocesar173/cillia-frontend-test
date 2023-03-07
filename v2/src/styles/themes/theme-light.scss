@@ -1,0 +1,29 @@
+.theme-light {
+    --bs-primary: #29B6FF !important;
+    --bs-primary-rgb: 41, 182, 255 !important;
+    --primary: #29B6FF;
+    --grey: #64748b;
+    --dark: #1e293b;
+    --dark-alt: #334155;
+    --light: #f1f5f9;
+    --light-alt: #dfdfdf;
+    --sidebar-width: 300px;
+    --scroll-track: #e1e5e9;
+
+    --text-color: #596270;
+    --title-color: #3E4B5B;
+
+    --header-icons: #26323899;
+
+    --background: var(--light);
+    --card-background: #fff;
+    --background-header: var(--primary);
+
+    --sidebar-user-icon: var(--light);
+    --sidebar-user-circle: var(--primary);
+
+    --hover-background: #dadee2;
+    --hover-color: #91a4b6;
+
+    --inactive: #c6cacdb0;
+}

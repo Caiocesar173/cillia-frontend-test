@@ -1,0 +1,16 @@
+.map-view {
+    .title-container {
+        box-shadow: none !important;
+    }
+    .card {
+        padding: 0rem !important;
+    }
+    .title-container {
+        margin: 0.7rem;
+    }
+    .map-card {
+        width: 100%;
+        height: 15.304rem;
+        border-radius: var(--border-radius);
+    }
+}

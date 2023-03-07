@@ -1,0 +1,61 @@
+.dashboard {
+    min-height: 100%;
+    background-color: var(--background);
+
+    .vehicles-list {
+        .title-container {
+            margin: 0 1rem 1rem 1rem;
+        }
+
+        .card {
+            padding: 1rem 0 0 0 !important;
+        }
+        .vehicles {
+            height: 14.74rem !important;
+            overflow-y: scroll;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 0.5rem;
+        }
+
+        tr:nth-child(odd) {
+            background-color: var(--inactive);
+        }
+    }
+
+    .vehicles-list,
+    .map-view {
+        width: 50%;
+    }
+
+    .flex-containter {
+        margin-top: 1.3rem;
+        gap: 1.3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    @media (max-width: 1024px) {
+        .flex-containter {
+            margin-top: 0.8rem;
+            gap: 0.8rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .vehicles-list,
+        .map-view {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+$font: "Arial", sans-serif;
+$font-heading: "Montserrat", sans-serif;
+
+:root {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  font-weight: 300;
+  line-height: 34px;
+
+  --font: "Poppins", sans-serif;
+  --font-heading: "Montserrat", sans-serif;
+
+  --border-radius: 0;
+
+  --bs-navbar-padding-x: 2rem !important;
+
+  @media (max-width: 1024px) {
+    --bs-navbar-padding-x: 0.5rem !important;
+  }
+}
+
+button {
+  cursor: pointer;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+}
